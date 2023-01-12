@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Play: Rock, Paper, Scissors</title>
+
+</head>
+<body class="dark-back-gradient flex flex-col jc-between">
+  <div class="rules-overlay">
+    <h3>rules</h3>
+    <img src="./images/icon-close.svg" class="close-rules" />
+    <img src="./images/image-rules.svg" alt="rules" />
+  </div>
+  <div class="head-box flex jc-between">
+    <img class="logo" src="./images/logo.svg" />
+    <div class="score-box flex flex-col">
+      <p>score</p>
+      <span>0</span>
+    </div>
+  </div>
+  <div class="pick-move">
+    <!-- <img class="bg-image" src="./images/bg-triangle.svg" alt=""> -->
+    <div id="paper" class="hand-box">
+      <img src="./images/icon-paper.svg" alt="paper">
+    </div>
+    <div id="rock" class="hand-box">
+      <img src="./images/icon-rock.svg" alt="rock">
+    </div>
+    <div id="scissors" class="hand-box">
+      <img src="./images/icon-scissors.svg" alt="scissors">
+    </div>
+  </div>
+  <div class="match-box">
+    <div class="box">
+      <span>You picked</span>
+      <div class="hand-box you-picked">
+        <img src="">
+      </div>
+    </div>
+    <div class="box">
+      <span>the house picked</span>
+      <div class="hand-box house-picked">
+        <img src="">
+      </div>
+    </div>
+  </div>
+  <div class="match-status">
+    <p>you won!</p>
+    <button>Play Again</button>
+  </div>
+  <div class="rules-btn">rules</div>
+
+  
+  <footer class="txt-lightblue">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/raghad-farhud"> Raghad Farhud</a>.
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

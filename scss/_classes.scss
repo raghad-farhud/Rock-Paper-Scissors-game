@@ -1,0 +1,23 @@
+.dark-background {
+  background-color: $dark-color;
+}
+.dark-back-gradient {
+  background: radial-gradient(#263868, #12192a);
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-between {
+  justify-content: space-between;
+}
+
+.txt-lightblue {
+  color: $txt-color;
+}
